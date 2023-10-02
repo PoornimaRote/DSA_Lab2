@@ -33,7 +33,8 @@ public class MergeSort {
 		            if (leftArray[i] > rightArray[j]) {
 		                arr[k] = leftArray[i];
 		                i++;
-		            } else {
+		            } 
+			    else {
 		                arr[k] = rightArray[j];
 		                j++;
 		            }
@@ -50,5 +51,5 @@ public class MergeSort {
 		            j++;
 		            k++;
 		        }
-		    }
-		}
+	           }
+}
