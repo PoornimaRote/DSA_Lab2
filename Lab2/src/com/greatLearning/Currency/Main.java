@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		 Scanner scn = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 
 	        System.out.println("Enter the size of currency denominations: ");
 	        int size = scn.nextInt();
