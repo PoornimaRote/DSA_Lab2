@@ -7,13 +7,16 @@ public class Main {
 		
 		Transaction t = new Transaction();
 		Scanner scn = new Scanner(System.in);
+		
 		System.out.println("Enter the size of transaction array : ");
 		int size = scn.nextInt();
 		int[]transactions = new int[size];
 		System.out.println("Enter the values of transaction : ");
+		
 		for(int i=0 ; i< size ; i++) {
 			transactions[i] = scn.nextInt();
 		}
+		
 		System.out.println("Enter the total no of targets that needs to be achieved : ");
 		int targetSize = scn.nextInt();
 		
@@ -28,8 +31,7 @@ public class Main {
 				System.out.println("The target cannot be achieved with the given transaction.");
 			}
 		}
-		scn.close();
 		
+		scn.close();
 	}
-
 }
