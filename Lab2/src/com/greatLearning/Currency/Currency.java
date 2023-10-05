@@ -13,7 +13,6 @@ public class Currency {
                                 }
                          }
                    }
-       
                   if(amount==0) {
         	        System.out.println("Your payment approach in order to give min no of notes will be:");
         	        for (int i = 0; i < denominations.length; i++) {
